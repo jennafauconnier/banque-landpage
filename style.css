@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background: rgba(255, 255, 255, 0.5);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  padding: 0;
+}
+.nav li {
+  list-style: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+}
+
+.logo {
+  background-image: url('./assets/bank-logo.jpg');
+  height: 70px;
+  width: 70px;
+  background-size: cover;
+  /* position: absolute; */
+  margin-top: 0;
+  margin-left: 5px;
+}
+
+.background-home {
+  background-image: url('./assets/couple-bank.jpeg');
+  background-size: cover;
+  height: 680px;
+}
+
+.block-promo {
+  background-color: #8ac876;
+  height: 500px;
+}
+
+.promo-content {
+  text-align: center;
+}
+
+.promo-content h1{
+  margin-top: 0;
+  font-family: 'Righteous', cursive;
+  color: #ffffff;
+  padding-bottom: 25px;
+  padding-top: 90px;
+}
+
+.promo-content p {
+  text-align: center;
+  margin-top: 0;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.call-client {
+  background-image: url('./assets/client.jpeg');
+  background-size: cover;
+  height: 900px;
+}
+
+.typo-call-client h2 {
+  margin-top: 0;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: 'Righteous', cursive;
+  color: #000000;
+  margin-bottom: 0;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-right: 25px;
+}
+
+.typo-call-client p {
+  font-family: 'Ubuntu', sans-serif;
+  background: rgba(255, 255, 255, 0.7);
+  color: #000000;
+  margin-top: 0;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 20px;
+  margin-right: 25px;
+}
+
+.typo-call-client {
+  padding-top: 150px;
+  padding-left: 400px
+}
+
+.info {
+  background-color: #191919;
+  height: 250px;
+}
+
+.list-liens {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-side {
+  margin-top: 0;
+  padding-top: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+  
+}
+
+.list-side li {
+  color: #ffffff;
+  list-style: none;
+  font-weight: 100;
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+.list-side li:hover {
+  color: #8ac876;
+  transition: 1s;
+}
+
+.list-side .maj-liens {
+  font-family: 'Roboto', sans-serif;
+  color: #8ac876;
+  font-size: 20px;
+}
+
+
+
+
